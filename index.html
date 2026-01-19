@@ -145,6 +145,24 @@
   <img src="./img/ruleta.jpg" alt="European Roulette">
 </div>
 
+.games {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  max-width: 440px;
+  margin: 30px auto;
+}
+
+.games img {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+  transition: transform 0.2s ease;
+}
+
+.games img:hover {
+  transform: scale(1.05);
+}
 
 
   <footer>
@@ -153,6 +171,7 @@
 
 </body>
 </html>
+
 
 
 
