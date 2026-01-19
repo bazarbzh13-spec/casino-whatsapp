@@ -1,0 +1,36 @@
+body {
+  background: #0b0b0b;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #ffd800;
+  color: #000;
+  font-weight: bold;
+  padding: 14px 22px;
+  border-radius: 14px;
+  text-decoration: none;
+
+  box-shadow:
+    0 0 5px #ffd800,
+    0 0 10px #ffd800,
+    0 0 20px #ffeb3b,
+    0 0 40px #ffeb3b;
+
+  animation: neonPulse 1.5s infinite alternate;
+}
+
+@keyframes neonPulse {
+  from {
+    box-shadow: 0 0 10px #ffd800;
+  }
+  to {
+    box-shadow: 0 0 40px #ffeb3b;
+  }
+}
